@@ -65,36 +65,36 @@ alert.backgroundViewColor = UIColorFromHEX(0x302d26);
 
 
 //Example button
-[alert addButton:@"GROUP KETA " actionBlock:^(void) {
-[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"https://www.facebook.com/groups/ketabykenhtao"] options:@{} completionHandler:nil];
+[alert addButton:@"TELEGRAM GetBasic" actionBlock:^(void) {
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"https://t.me/getbasicvn"] options:@{} completionHandler:nil];
 }];
 
-[alert addButton:@"TELEGRAM KETA " actionBlock:^(void) {
-[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"https://t.me/KETAiOS"] options:@{} completionHandler:nil];
+[alert addButton:@"Website GetBasic" actionBlock:^(void) {
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"http://getbasic.link"] options:@{} completionHandler:nil];
 }];
 
-[alert addButton:@"TELEGRAM Kênh Táo " actionBlock:^(void) {
-[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"https://t.me/repo_kenhtao"] options:@{} completionHandler:nil];
+[alert addButton:@"TELEGRAM GetBasic | Crack App " actionBlock:^(void) {
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"https://t.me/getbasiccrack"] options:@{} completionHandler:nil];
     }];
 
-[alert addButton:@"TELEGRAM DVC IPA " actionBlock:^(void) {
-[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"https://t.me/dvcipaios"] options:@{} completionHandler:nil];
+[alert addButton:@"TELEGRAM GetBasic | Certificate" actionBlock:^(void) {
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"https://t.me/getbasicfree"] options:@{} completionHandler:nil];
     }];
 
-[alert addButton:@"TELEGRAM iOSVIET.CO " actionBlock:^(void) {
-[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"https://t.me/iosvietmrq"] options:@{} completionHandler:nil];
-        }];
+[alert addButton:@"TELEGRAM Contact Admin" actionBlock:^(void) {
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"https://t.me/kennguyen02"] options:@{} completionHandler:nil];
+    }];
 //End example button
 
 
 
 
 //You can replace any logo link with a direct image link
-NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:@"https://img.upanh.tv/2023/09/03/AF743409-C184-485B-BED8-C0F6500B3BEA.png"]];
+NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:@"https://getbasic.link/logo.jpg"]];
 
 UIImage* customAlertImage = [UIImage imageWithData:data];  
  
-[alert showCustom:alert image:customAlertImage color:[UIColor clearColor] title:@"KÊNH TÁO " subTitle:@"Cảm ơn bạn đã sử dụng  KETA .\nBấm vào Logo để tắt thông báo." closeButtonTitle:nil duration:9999999999.0f];
+[alert showCustom:alert image:customAlertImage color:[UIColor clearColor] title:@"KÊNH TÁO " subTitle:@"Cảm ơn bạn đã sử dụng  Get Basic .\nBấm vào Logo để tắt thông báo." closeButtonTitle:nil duration:9999999999.0f];
 
 
 
